@@ -1,0 +1,47 @@
+.navbar_wrapper * {
+  display: inline;
+  margin-top: 0;
+  align-items: center;
+}
+
+.navbar_wrapper {
+  background-color: #aefecb;
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  float: right;
+}
+.navbar_text p {
+  float: right;
+  margin: 15px;
+    top: 0%;
+    margin-top: 0;
+  color: black;
+  font-family: "Roboto";
+}
+ p:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+button {
+  float: right;
+  font-family: "Roboto";
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: #aefecb;
+  border: 1px dashed #213053;
+  border-radius: 10px;
+  Width:80px;
+Height:25px;
+
+
+}

@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import "./App.css";
+
+
+import { Header } from "./header";
+import Navbar from "./navbar";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    < div>
+      <Navbar />
 
-export default App
+      <Header />
+
+      
+    </ div>
+  );
+};
+
+export default App;
